@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.B.S Booking System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="sidenav">
+        <a href="./index.html">Home</a>
+        <a href="./book.html">Booking</a>
+        <a href="./dashboard.html">Dashboard</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+
+    <h1 id="booktitle">Book A New Flight</h1>
+    <h2 id="booktitle2">To Book A New Flight, Please Fill In The Form Below</h3>
+
+    <form id="bookform" action="./completedbook.html">
+        <label style="font-weight: 700;" for="ftakeoff">Where Will You Be Taking Off From?</label> <br>
+        <input type="text" id="ftakeoff"><br>
+        <label style="font-weight: 700;" for="fland">Where Will You Be Landing?</label> <br>
+        <input type="text" id="fland"><br>
+        <label style="font-weight: 700;" for="fname">What Is Your First - And Last - Name(s)?</label> <br>
+        <input type="text" id="fname"><br>
+        <label style="font-weight: 700;" for="fphone">What Is Your Phone Number?</label> <br>
+        <input type="text" id="fphone"><br>
+        <label style="font-weight: 700;" for="fextra">Any Extra Info (E.G: Time Of Flight, Accocomadtion, etc)</label> <br>
+        <input type="text" id="fextra"><br>
+        <button id="fsubmit">Submit Flight Booking</button>
+    </form>
+</body>
+</html>
