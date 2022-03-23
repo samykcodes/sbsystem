@@ -7,5 +7,6 @@ var extra = document.getElementById("fextra")
 function cbookings() {
     var takeoffwhere = document.getElementById("ftakeoff").value 
     console.log(takeoffwhere)
+    alert(takeoff)
 }
 
