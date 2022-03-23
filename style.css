@@ -9,6 +9,8 @@ html {
     font-weight: 700;
     font-size: 63px;
     text-align: center;
+    text-transform: uppercase;
+    border: green, 50px;
 }
 
 #title2 {
@@ -19,9 +21,10 @@ html {
     margin: auto;
     padding: 10px;
     position: absolute;
-    right: 41.5%;
+    right: 43.5%;
     border-radius: 25px;
     border: green;
+    border-width: 50px;
     font-weight: 700;
     background-color: #16d9e3;
 }
@@ -33,6 +36,7 @@ html {
     right: 43.35%;
     border-radius: 25px;
     border: green;
+    border-width: 50px;
     font-weight: 700;
     background-color: #16d9e3;
 }
@@ -149,4 +153,68 @@ html {
     width: 20%;
     font-weight: 700;
     box-shadow:0 0 15px 5px rgba(0, 47, 117, 0.685);
+}
+
+#bstatus {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    border: green, 50px;
+    margin-left: 30px;
+}
+
+#email {
+    padding: 7.5px;
+    border: green;
+    border-radius: 10px;
+    border-width: 7.5px;
+    margin: 10px 0;
+    margin-top: 10px 0;
+    margin-bottom: 10px 0;
+    box-shadow:0 0 15px 5px rgba(0, 47, 117, 0.685);
+    width: 25%;
+}
+
+#name {
+    padding: 7.5px;
+    border: green;
+    border-radius: 10px;
+    border-width: 7.5px;
+    margin: 10px 0;
+    margin-top: 10px 0;
+    margin-bottom: 10px 0;
+    box-shadow:0 0 15px 5px rgba(0, 47, 117, 0.685);
+    width: 25%;
+}
+
+#pass {
+    padding: 7.5px;
+    border: green;
+    border-radius: 10px;
+    border-width: 7.5px;
+    margin: 10px 0;
+    margin-top: 10px 0;
+    margin-bottom: 10px 0;
+    box-shadow:0 0 15px 5px rgba(0, 47, 117, 0.685);
+    width: 25%;
+}
+
+#fwoof {
+    appearance:none;
+    -webkit-appearance:none;
+    border:none;
+    background-color: #30cbf1;
+    color:#fff;
+    font-weight:600;
+    border-radius:10px;
+    height: 35px;
+    width: 20%;
+    font-weight: 700;
+    box-shadow:0 0 15px 5px rgba(0, 47, 117, 0.685);
+    margin: 0;
+    position: absolute;
+    left: 53%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    text-align: center;
 }
