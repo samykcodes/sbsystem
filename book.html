@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S.B.S Booking System</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
 </head>
 <body>
     <div class="sidenav">
@@ -18,7 +19,7 @@
     <h1 id="booktitle">Book A New Flight</h1>
     <h2 id="booktitle2">To Book A New Flight, Please Fill In The Form Below</h3>
 
-    <form id="bookform" action="./completedbook.html">
+    <form id="bookform" action="./contact.html">
         <label style="font-weight: 700;" for="ftakeoff">Where Will You Be Taking Off From?</label> <br>
         <input type="text" id="ftakeoff"><br>
         <label style="font-weight: 700;" for="fland">Where Will You Be Landing?</label> <br>
@@ -29,7 +30,8 @@
         <input type="text" id="fphone"><br>
         <label style="font-weight: 700;" for="fextra">Any Extra Info (E.G: Time Of Flight, Accocomadtion, etc)</label> <br>
         <input type="text" id="fextra"><br>
-        <button id="fsubmit">Submit Flight Booking</button>
+        <button id="fsubmit" type="submit" onclick="cbookings()">Submit Flight Booking</button>
     </form>
+        <button onclick="cbookings()">Submit</button>
 </body>
 </html>
